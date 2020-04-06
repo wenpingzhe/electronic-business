@@ -1,0 +1,55 @@
+1585786180471|82|statement|connection 9|SELECT         *         FROM         student_score sc         WHERE         sc.name = ?         ORDER BY         sc.math DESC|SELECT         *         FROM         student_score sc         WHERE         sc.name = 'lisi'         ORDER BY         sc.math DESC
+/* 2020-04-02 08:10:59:486 | took 32ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'lisi'
+        ORDER BY
+        sc.math DESC;
+/* 2020-04-02 08:15:17:370 | took 18ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'lisi'
+        ORDER BY
+        sc.math DESC;
+/* 2020-04-02 08:15:37:529 | took 2ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'ewr'
+        ORDER BY
+        sc.math DESC;
+/* 2020-04-02 08:19:52:080 | took 27ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'fds'
+        ORDER BY
+        sc.math DESC;
+/* 2020-04-02 08:21:31:014 | took 30ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'lisi'
+        ORDER BY
+        sc.math DESC;
+/* 2020-04-02 08:21:44:566 | took 1ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'lis'
+        ORDER BY
+        sc.math DESC;

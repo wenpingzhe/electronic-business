@@ -1,0 +1,9 @@
+/* 2020-04-06 10:45:38:508 | took 29ms | statement | connection 9 */ 
+ SELECT
+        *
+        FROM
+        student_score sc
+        WHERE
+        sc.name = 'lisi'
+        ORDER BY
+        sc.math DESC;
